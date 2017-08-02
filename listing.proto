@@ -1,0 +1,9 @@
+message ListingRequest {
+  int64 id = 1;
+}
+
+message ListingResponse {
+  int64  id = 1;
+  string city = 2; 
+}
+
